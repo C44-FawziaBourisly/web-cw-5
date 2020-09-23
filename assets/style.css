@@ -19,15 +19,19 @@ body {
 /* ---------------%اجعل الشريط الجانبي بطول 100------------- */
 .side-bar {
   /* flex */
+  display: flex;
+  width: 100%;
+  height: 100%;
 }
 
 /* ------------------(العنوان: المطلوب #2)------------------ */
 /* ------------------%اجعل العنوان بعرض 100----------------- */
 /* --اجعل العناصر (المنيو، معرفة المزيد، تواصل) تظهر بالنص-- */
 .head-ul {
+  display: flex;
+  justify-content: center;
   /* flex */
 }
-
 
 /* ------------------(المحتوى: المطلوب #2)------------------ */
 /* ------------اجعل جميع عناصر المنيو تظهر بالنص------------ */
@@ -42,7 +46,12 @@ body {
   width: 700px;
   margin-top: 50px;
   border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
   /* flex */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .header {
   width: 100%;
